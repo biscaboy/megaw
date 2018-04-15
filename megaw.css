@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+/* www.megawtheatreinc.com - version 201708 */
 
 
  html, body {
@@ -14,7 +15,7 @@ body {
 	color: #333333 
 	background-color: #FFFFFF;  
 	margin: 0;	
-	background: url(images/bglogo.jpg) no-repeat 50% 0;	
+		
 }
 
 h1 {
@@ -87,6 +88,9 @@ td.boxfooter {
 }
 
 #container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
  width: 964px;
  margin: 0 auto; 
  padding: 0;
@@ -109,6 +113,14 @@ td.boxfooter {
  border:0;
  
  	
+ }
+
+ #container #header1 #tagline {
+ font-family: Ariel, serif;
+ font-style:italic;
+ font-size:16px;
+ text-align:center;
+ margin:0 0 5px 0;
  }
  
 
@@ -137,6 +149,7 @@ td.boxfooter {
  width: 720px;
  float: left;
  height:100%;
+ background: url(images/bglogo.jpg) no-repeat 50% 0;
  }
  
  #rightcol #rightside {
