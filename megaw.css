@@ -354,3 +354,18 @@ ul.plain-list {
 ul.plain-list li {
 	padding: 5px 0 0 0;
 }
+
+ul.flat-list {
+	list-style-type: disc;
+	margin-bottom: 20px;
+}
+
+ul.flat-list li {
+	padding: 5px 0 0 0;
+	display: inline;
+}
+
+ul.flat-list li:before {
+	content:  " • ";
+}
+
